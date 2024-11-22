@@ -3,7 +3,8 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace PartsUnlimited.Models
 {
-    public class PartsUnlimitedContext : IdentityDbContext<ApplicationUser>, IPartsUnlimitedContext
+    //my first change
+        public class PartsUnlimitedContext : IdentityDbContext<ApplicationUser>, IPartsUnlimitedContext
     {
         public PartsUnlimitedContext()
             : base("name=DefaultConnectionString")
